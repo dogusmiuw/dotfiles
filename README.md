@@ -7,7 +7,7 @@ my configuration files for a few programs.
 i seperated the files based on operating systems, just because i like to hop.
 so, you will see a few folders.
 
-```
+```txt
 dotfiles
   |__windows
   |__common
