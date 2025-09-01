@@ -1,0 +1,50 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Rosé Pine",
+    "workbench.iconTheme": "rose-pine-icons",
+    "window.zoomLevel": 1,
+    "github.copilot.nextEditSuggestions.enabled": true,
+
+    // editor
+    "editor.minimap.enabled": false,
+    "editor.detectIndentation": false,
+    "editor.wordWrap": "on",
+    "editor.cursorBlinking": "solid",
+    "editor.cursorStyle": "block",
+    "editor.fontFamily": "FiraCode Nerd Font",
+    "editor.fontLigatures": true,
+
+    // format
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    // "javascript.format.semicolons": "insert",
+    // "typescript.format.semicolons": "insert",
+
+    // prettier settings
+    "prettier.bracketSpacing": false,
+    "prettier.arrowParens": "avoid",
+    "prettier.trailingComma": "all",
+    "prettier.tabWidth": 4,
+    "[astro]": {
+        "editor.defaultFormatter": "astro-build.astro-vscode"
+    },
+
+    // other
+    "editor.unicodeHighlight.allowedLocales": {
+        "tr": true
+    },
+    "dart.flutterSdkPath": "C:\\flutter\\flutter",
+    "explorer.compactFolders": false,
+    "git.autofetch": true,
+    // "files.autoSave": "afterDelay",
+    "security.allowedUNCHosts": ["wsl.localhost"],
+    "workbench.activityBar.location": "top",
+    "security.workspace.trust.untrustedFiles": "open",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "jsonc": false
+    }
+}
