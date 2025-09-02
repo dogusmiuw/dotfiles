@@ -15,7 +15,7 @@ config.initial_rows = 24
 config.tab_bar_at_bottom = true
 config.use_fancy_tab_bar = false
 config.show_new_tab_button_in_tab_bar = false
---config.window_background_opacity = 0.65
+-- config.window_background_opacity = 0.65
 
 config.font_size = 16
 config.font = wezterm.font("FiraCode Nerd Font")
@@ -23,7 +23,7 @@ config.font = wezterm.font("FiraCode Nerd Font")
 config.default_prog = { "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "-NoLogo" }
 config.default_cwd = "C:\\Users\\dceli\\dev"
 
-config.window_decorations = "NONE"
+-- config.window_decorations = "NONE"
 
 config.colors = {
 	tab_bar = {
