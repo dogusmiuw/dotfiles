@@ -1,11 +1,11 @@
 local wezterm = require("wezterm")
 local config = wezterm.config_builder()
-local mux = wezterm.mux
+-- local mux = wezterm.mux
 
-wezterm.on("gui-startup", function()
-	local tab, pane, window = mux.spawn_window({})
-	window:gui_window():maximize()
-end)
+-- wezterm.on("gui-startup", function()
+-- 	local tab, pane, window = mux.spawn_window({})
+-- 	window:gui_window():maximize()
+-- end)
 
 config.color_scheme = "rose-pine"
 
@@ -15,13 +15,11 @@ config.initial_rows = 24
 config.tab_bar_at_bottom = true
 config.use_fancy_tab_bar = false
 config.show_new_tab_button_in_tab_bar = false
--- config.window_background_opacity = 0.65
+--config.window_background_opacity = 0.65
 
 config.font_size = 16
 config.font = wezterm.font("FiraCode Nerd Font")
 
--- this is just for windows operating system. if you use another operating system,
--- please see: https://wezterm.org/config/launch.html#changing-the-default-program
 config.default_prog = { "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "-NoLogo" }
 config.default_cwd = "C:\\Users\\dceli\\dev"
 
