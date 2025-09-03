@@ -20,7 +20,8 @@ config.show_new_tab_button_in_tab_bar = false
 config.font_size = 16
 config.font = wezterm.font("FiraCode Nerd Font")
 
-config.default_prog = { "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "-NoLogo" }
+config.default_prog = { "C:\\Program Files\\PowerShell\\7\\pwsh.exe", "-NoLogo" }
+-- config.default_prog = { "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "-NoLogo" }
 config.default_cwd = "C:\\Users\\dceli\\dev"
 
 -- config.window_decorations = "NONE"
